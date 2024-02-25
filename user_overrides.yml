@@ -8,16 +8,16 @@ generate_local_vars: true
 make_num_jobs: 1
 
 # set desired site name
-# site_name: mysitename.com
+site_name: lab.gmarcy.com
 
 # set desired boot domain
-# boot_domain: boot.mysitename.com
+boot_domain: matchbox.192.168.222.254.nip.io/assets/nbxyz
 
 # set boot version
-# boot_version: "2.x"
+boot_version: "2.0.77"
 
 # bootloader_tftp_enabled: false
-# bootloader_https_enabled: true
+bootloader_https_enabled: false
 # bootloader_http_enabled: true
 
 # set release overrides from standard netboot.xyz defaults
